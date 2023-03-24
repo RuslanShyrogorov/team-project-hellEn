@@ -1,0 +1,135 @@
+.footer__contacts-section {
+    padding-bottom: 0px;
+}
+.footer-wrapper {
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+    padding-bottom: 40px;    
+
+    @media screen and (min-width:$tablet) {
+        justify-content: space-between;        
+        flex-direction: row;
+       
+        }
+
+    @media screen and (min-width:$desktop) {
+        position: relative;
+        justify-content: center;
+     
+    }
+}
+
+.footer-logo {  
+    margin-right: 0;
+    @media screen and (min-width:$desktop) {
+        position: absolute;
+                left: 0;
+    
+        }
+  
+}
+
+.copyright-section__text {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: var(--secondary-background-color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    color: var(--primary-text-color);
+
+        @media screen and (min-width:$desktop) {
+            padding-top: 26px;
+            padding-bottom: 26px;
+        }
+}
+
+.contacts-tel {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.08;
+    color: var(--second-text-color);
+
+    @media screen and (min-width:$tablet) {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    
+    @media screen and (min-width:$desktop) {
+        font-size: 30px;
+        line-height: 1.23;
+    }
+}
+
+.contact-tel__svg {
+    width: 20px;
+    height:19px;
+    margin-right: 8px;
+    fill: var(--accent-color);
+
+    @media screen and (min-width:$tablet) {
+            width: 24px;
+            height: 23px;
+        }
+    @media screen and (min-width:$tablet) {
+            width: 30px;
+            height: 29px;
+        }
+}
+
+.footer__insta-logo {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    background:
+    url(/images/instagram-icon.png);
+    background-size: 40px 40px;
+
+    @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+        background-image:
+        url(/images/instagram-icon@2x.png);
+    }
+}
+
+
+.contacts-list {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+       @media screen and (min-width:$tablet) {
+           flex-direction: row;
+       
+       }
+
+}
+
+.contacts-list__item {
+        @media screen and (max-width: 767px) {
+            margin-top: 21px;
+        }
+}
+
+.contact-tel__span {
+@media screen and (min-width:$tablet) {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
+
+.contacts-list__insta-icon {
+@media screen and (min-width:$tablet) {
+        padding-left: 24px;
+        border-left: 1px solid #B9B9B9;
+    }
+}
